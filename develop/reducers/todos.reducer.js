@@ -36,7 +36,7 @@ function simpleTodo(state, action) {
             return {
                 id    : Date.now(),
                 value : action.todo,
-                date  : (new Date).toLocaleDateString('en-US', {hour: '2-digit', minute:'2-digit'}),
+                date  : (new Date()).toLocaleDateString('en-US', {hour: '2-digit', minute:'2-digit'}),
                 completed : false
             };
         } break;

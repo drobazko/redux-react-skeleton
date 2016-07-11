@@ -48,7 +48,7 @@ class TodoList extends React.Component {
                         adjustForCheckbox = {false}
                     >
                         <TableRow>
-                            <TableHeaderColumn><b>Check</b></TableHeaderColumn>
+                            <TableHeaderColumn><b>Check My</b></TableHeaderColumn>
                             <TableHeaderColumn><b>Todo</b></TableHeaderColumn>
                             <TableHeaderColumn><b>Date</b></TableHeaderColumn>
                         </TableRow>
